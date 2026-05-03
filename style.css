@@ -1,0 +1,59 @@
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 15px;
+}
+
+.botao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+button{
+  background-color: #e11d48;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+#logout{
+  background-color: #e11d48;
+  color: white;
+  padding: 7px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+#logout:hover{
+  background: #be123c;
+}
+
+button:hover {
+  background: #be123c;
+}
+
+.conteudo{
+  background: #f1f5f9;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+h3{
+  text-align: center;
+}
